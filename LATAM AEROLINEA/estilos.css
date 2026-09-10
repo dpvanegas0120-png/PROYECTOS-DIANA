@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(87, 167, 248);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+}
+h1{
+    color: black;
+}
+p {
+    color: #333333;
+    font-size: 18px;
+}
+img{
+    display: block;
+    margin: 20px auto;
+    width: 800px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(red, green, blue, alpha);
+}
+.buscador{
+    background-color: white;
+    padding: 25px;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1000px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(red, green, blue, alpha);
+}
+.buscador h2{
+    color: #003366;
+    font-size: 16px;
+    letter-spacing: 3px;
+    margin-bottom: 25px;
+}
+.buscador form {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-end;
+  
+}
+.campo {
+    flex: 1;
+}
+.campo label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    text-align: left;
+}
+.campo select
+.campo input {
+    width: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    }
+.fila-vuelo{
+ display: flex;
+    gap: 10px;
+    }
+       
+
+.fila-vuelo button {
+    flex: 1;
+    background-color: #d52b1e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.buscador footer{
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+}
